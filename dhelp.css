@@ -1,293 +1,286 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Depression Helpline — You Are Not Alone</title>
+  <meta name="description" content="Depression helpline page with Indian hotlines, resources, and a contact form." />
 
-\f0\fs24 \cf0 <!doctype html>\
-<html lang="en">\
-<head>\
-  <meta charset="utf-8" />\
-  <meta name="viewport" content="width=device-width,initial-scale=1" />\
-  <title>Depression Helpline \'97 You Are Not Alone</title>\
-  <meta name="description" content="Depression helpline page with Indian hotlines, resources, and a contact form." />\
-\
-  <!-- Google Fonts -->\
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">\
-  <!-- Font Awesome for icons -->\
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">\
-\
-  <style>\
-    :root\{\
-      --bg-gradient: linear-gradient(135deg, #f0f4ff, #e9f7f7);\
-      --card:#ffffff;\
-      --accent:#2563eb;\
-      --muted:#6b7280;\
-      --danger:#c53030;\
-      font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;\
-    \}\
-\
-    body \{\
-      margin:0;\
-      background: var(--bg-gradient);\
-      color:#111;\
-    \}\
-\
-    .wrap \{\
-      max-width: 1000px;\
-      margin: 30px auto;\
-      padding: 0 20px;\
-    \}\
-\
-    header \{\
-      text-align: center;\
-      padding: 30px 20px;\
-    \}\
-\
-    .logo \{\
-      width:70px;\
-      height:70px;\
-      margin:0 auto 12px;\
-      border-radius:50%;\
-      background:linear-gradient(135deg,var(--accent),#4a90e2);\
-      display:flex;\
-      align-items:center;\
-      justify-content:center;\
-      color:white;\
-      font-size:26px;\
-      box-shadow:0 8px 20px rgba(37,99,235,0.3);\
-      animation: pulse 2s infinite;\
-    \}\
-\
-    @keyframes pulse \{\
-      0% \{ transform: scale(1); \}\
-      50% \{ transform: scale(1.05); \}\
-      100% \{ transform: scale(1); \}\
-    \}\
-\
-    h1 \{\
-      margin:0;\
-      font-size:2rem;\
-      font-weight:700;\
-      color:#1e3a8a;\
-    \}\
-\
-    p.lead \{\
-      margin:10px auto 20px;\
-      color:var(--muted);\
-      max-width:600px;\
-      font-size:1rem;\
-    \}\
-\
-    .grid \{\
-      display:grid;\
-      gap:20px;\
-      grid-template-columns:1fr;\
-    \}\
-    @media(min-width:760px)\{\
-      .grid \{ grid-template-columns:2fr 1fr; \}\
-    \}\
-\
-    .card \{\
-      background:var(--card);\
-      padding:20px;\
-      border-radius:16px;\
-      box-shadow:0 6px 18px rgba(0,0,0,0.08);\
-      transition: transform 0.2s ease;\
-    \}\
-\
-    .card:hover \{\
-      transform: translateY(-3px);\
-    \}\
-\
-    h2,h3,h4 \{\
-      margin-top:0;\
-      color:#1e3a8a;\
-    \}\
-\
-    /* Hotline styling */\
-    .hotline \{ display:flex; flex-direction:column; gap:12px; \}\
-    .hotline .item \{\
-      display:flex;\
-      align-items:center;\
-      justify-content:space-between;\
-      padding:12px 16px;\
-      border-radius:12px;\
-      background:#f9fbff;\
-      border:1px solid rgba(0,0,0,0.05);\
-      transition: background 0.2s ease;\
-    \}\
-    .hotline .item:hover \{ background:#eef3ff; \}\
-    .hotline .label \{ font-weight:600; color:#2563eb; \}\
-    .hotline small \{ display:block; color:var(--muted); font-size:0.85rem; \}\
-    .hotline a \{\
-      background: var(--accent);\
-      color:white;\
-      text-decoration:none;\
-      padding:6px 10px;\
-      border-radius:8px;\
-      font-weight:600;\
-      font-size:0.9rem;\
-      margin-left:6px;\
-      display:inline-flex;\
-      align-items:center;\
-      gap:5px;\
-      transition: background 0.2s;\
-    \}\
-    .hotline a:hover \{ background:#1e3a8a; \}\
-\
-    /* Form */\
-    form \{ display:flex; flex-direction:column; gap:12px; \}\
-    input,textarea \{\
-      padding:12px;\
-      border-radius:8px;\
-      border:1px solid #d1d5db;\
-      font-size:14px;\
-      width:100%;\
-    \}\
-    button \{\
-      padding:10px 14px;\
-      border-radius:8px;\
-      border:0;\
-      background:var(--accent);\
-      color:white;\
-      font-weight:600;\
-      cursor:pointer;\
-      transition: background 0.2s ease;\
-    \}\
-    button:hover \{ background:#1e3a8a; \}\
-    small \{ color:var(--muted); \}\
-\
-    /* Footer */\
-    .footer \{\
-      margin-top:20px;\
-      text-align:center;\
-      color:var(--muted);\
-      font-size:13px;\
-    \}\
-    .danger \{ color:var(--danger); font-weight:700; \}\
-  </style>\
-</head>\
-<body>\
-  <div class="wrap">\
-    <header>\
-      <div class="logo"><i class="fas fa-heart"></i></div>\
-      <h1>Depression Helpline India</h1>\
-      <p class="lead">If you're in distress or need someone to talk to, please use these resources. If you're in immediate danger, call your local emergency number right now.</p>\
-    </header>\
-\
-    <main class="grid" role="main">\
-      <section class="card">\
-        <h2>Immediate Help</h2>\
-        <p class="lead">If you are at risk of harming yourself or someone else, please call emergency services immediately.</p>\
-\
-        <div class="hotline">\
-          <div class="item">\
-            <div>\
-              <div class="label">Tele-MANAS (Govt. of India 24/7 Helpline)</div>\
-              <small>Call</small>\
-            </div>\
-            <div>\
-              <a href="tel:14416"><i class="fas fa-phone"></i>14416</a>\
-              <a href="tel:18008914416"><i class="fas fa-phone"></i>1800-891-4416</a>\
-            </div>\
-          </div>\
-\
-          <div class="item">\
-            <div>\
-              <div class="label">AASRA (24/7 confidential support)</div>\
-              <small>Call</small>\
-            </div>\
-            <div>\
-              <a href="tel:+919820466726"><i class="fas fa-phone"></i>+91-98204 66726</a>\
-            </div>\
-          </div>\
-\
-          <div class="item">\
-            <div>\
-              <div class="label">Vandrevala Foundation Helpline</div>\
-              <small>Call</small>\
-            </div>\
-            <div>\
-              <a href="tel:18602662345"><i class="fas fa-phone"></i>1860 2662 345</a>\
-              <a href="tel:18002333330"><i class="fas fa-phone"></i>1800 2333 330</a>\
-            </div>\
-          </div>\
-        </div>\
-\
-        <hr style="margin:20px 0;border:none;border-top:1px solid #eee" />\
-\
-        <h3>Talk to someone \'97 confidentially</h3>\
-        <p style="color:var(--muted)">Use this form to send a short message. This page does not store messages unless you configure a form endpoint.</p>\
-\
-        <form id="contactForm" method="POST" action="https://formspree.io/f/xblaevlg">\
-          <input id="name" name="name" type="text" placeholder="Your name (optional)" />\
-          <input id="email" name="email" type="email" placeholder="Your email (optional)" />\
-          <textarea id="message" name="message" rows="5" required placeholder="I'm feeling..."></textarea>\
-          <small>By sending, you agree this message will be emailed to the helpline receiver. For urgent danger call local emergency services.</small>\
-\
-          <div style="display:flex;gap:8px;margin-top:8px">\
-            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>\
-            <button id="mailtoBtn" type="button" style="background:#6b7280"><i class="fas fa-envelope"></i> Open Email</button>\
-          </div>\
-          <div id="formStatus" role="status" aria-live="polite" style="margin-top:8px"></div>\
-        </form>\
-      </section>\
-\
-      <aside class="card">\
-        <h2>Resources & Guidance</h2>\
-        <div class="resources">\
-          <p class="lead">Helpful quick links</p>\
-          <ul>\
-            <li><a href="https://www.who.int/mental_health" target="_blank"><i class="fas fa-globe"></i> WHO \'97 mental health info</a></li>\
-            <li><a href="hhttps://mhfi.in/" target="_blank"><i class="fas fa-leaf"></i> Mental Health Foundation </a></li>\
-            <li><a href="https://findahelpline.com/countries/in/topics/suicidal-thoughts/" target="_blank"><i class="fas fa-hands-helping"></i> Indian Suicide Prevention</a></li>\
-          </ul>\
-          <hr style="margin:12px 0;border:none;border-top:1px solid #eee" />\
-           <h3 style="margin-top:10px">If you are outside India</h3>\
-          <p style="margin:6px 0;color:var(--muted)">Find local hotlines through government health sites or the resources above. If you can't find a number, reach out to a trusted friend, family member, or local clinic.</p>\
-\
-          <hr style="margin:10px 0;border:none;border-top:1px solid #eee" />\
-\
-          <h4>Privacy & Notes</h4>\
-          <small>This is a simple static page. If you don\'92t configure a provider, clicking <em>Open email</em> will create a draft in your email app.</small>\
-        </div>\
-      </aside>\
-    </main>\
-\
-    <div class="footer">\
-      <small>\uc0\u9888 \u65039  Not a substitute for professional help. If you are in immediate danger, call <span class="danger">112</span> or your local emergency number.</small>\
-    </div>\
-  </div>\
-\
-  <script>\
-    (function()\{\
-      const form = document.getElementById('contactForm');\
-      const mailtoBtn = document.getElementById('mailtoBtn');\
-      const status = document.getElementById('formStatus');\
-\
-      form.addEventListener('submit', function(evt)\{\
-        const action = form.getAttribute('action') || "";\
-        if(action.includes('your-form-id'))\{\
-          evt.preventDefault();\
-          status.textContent = "\uc0\u9888 \u65039  Form not configured. Replace the form action with your Formspree endpoint, or use 'Open Email'.";\
-          status.style.color = "orange";\
-        \} else \{\
-          status.textContent = "Sending...";\
-          status.style.color = "black";\
-        \}\
-      \});\
-\
-      mailtoBtn.addEventListener('click', function()\{\
-        const name = encodeURIComponent(document.getElementById('name').value || '');\
-        const email = encodeURIComponent(document.getElementById('email').value || '');\
-        const message = encodeURIComponent(document.getElementById('message').value || '');\
-        const subject = encodeURIComponent("Helpline message from website");\
-        const body = `Name: $\{name\}%0D%0AEmail: $\{email\}%0D%0A%0D%0A$\{message\}`;\
-        window.location.href = `mailto:help@example.org?subject=$\{subject\}&body=$\{body\}`;\
-      \});\
-    \})();\
-  </script>\
-</body>\
-</html>}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root{
+      --bg-gradient: linear-gradient(135deg, #f0f4ff, #e9f7f7);
+      --card:#ffffff;
+      --accent:#2563eb;
+      --muted:#6b7280;
+      --danger:#c53030;
+      font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    body {
+      margin:0;
+      background: var(--bg-gradient);
+      color:#111;
+    }
+
+    .wrap {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      width:70px;
+      height:70px;
+      margin:0 auto 12px;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--accent),#4a90e2);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      font-size:26px;
+      box-shadow:0 8px 20px rgba(37,99,235,0.3);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    h1 {
+      margin:0;
+      font-size:2rem;
+      font-weight:700;
+      color:#1e3a8a;
+    }
+
+    p.lead {
+      margin:10px auto 20px;
+      color:var(--muted);
+      max-width:600px;
+      font-size:1rem;
+    }
+
+    .grid {
+      display:grid;
+      gap:20px;
+      grid-template-columns:1fr;
+    }
+    @media(min-width:760px){
+      .grid { grid-template-columns:2fr 1fr; }
+    }
+
+    .card {
+      background:var(--card);
+      padding:20px;
+      border-radius:16px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    h2,h3,h4 {
+      margin-top:0;
+      color:#1e3a8a;
+    }
+
+    /* Hotline styling */
+    .hotline { display:flex; flex-direction:column; gap:12px; }
+    .hotline .item {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:12px 16px;
+      border-radius:12px;
+      background:#f9fbff;
+      border:1px solid rgba(0,0,0,0.05);
+      transition: background 0.2s ease;
+    }
+    .hotline .item:hover { background:#eef3ff; }
+    .hotline .label { font-weight:600; color:#2563eb; }
+    .hotline small { display:block; color:var(--muted); font-size:0.85rem; }
+    .hotline a {
+      background: var(--accent);
+      color:white;
+      text-decoration:none;
+      padding:6px 10px;
+      border-radius:8px;
+      font-weight:600;
+      font-size:0.9rem;
+      margin-left:6px;
+      display:inline-flex;
+      align-items:center;
+      gap:5px;
+      transition: background 0.2s;
+    }
+    .hotline a:hover { background:#1e3a8a; }
+
+    /* Form */
+    form { display:flex; flex-direction:column; gap:12px; }
+    input,textarea {
+      padding:12px;
+      border-radius:8px;
+      border:1px solid #d1d5db;
+      font-size:14px;
+      width:100%;
+    }
+    button {
+      padding:10px 14px;
+      border-radius:8px;
+      border:0;
+      background:var(--accent);
+      color:white;
+      font-weight:600;
+      cursor:pointer;
+      transition: background 0.2s ease;
+    }
+    button:hover { background:#1e3a8a; }
+    small { color:var(--muted); }
+
+    /* Footer */
+    .footer {
+      margin-top:20px;
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .danger { color:var(--danger); font-weight:700; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo"><i class="fas fa-heart"></i></div>
+      <h1>Depression Helpline India</h1>
+      <p class="lead">If you're in distress or need someone to talk to, please use these resources. If you're in immediate danger, call your local emergency number right now.</p>
+    </header>
+
+    <main class="grid" role="main">
+      <section class="card">
+        <h2>Immediate Help</h2>
+        <p class="lead">If you are at risk of harming yourself or someone else, please call emergency services immediately.</p>
+
+        <div class="hotline">
+          <div class="item">
+            <div>
+              <div class="label">Tele-MANAS (Govt. of India 24/7 Helpline)</div>
+              <small>Call</small>
+            </div>
+            <div>
+              <a href="tel:14416"><i class="fas fa-phone"></i>14416</a>
+              <a href="tel:18008914416"><i class="fas fa-phone"></i>1800-891-4416</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <div class="label">AASRA (24/7 confidential support)</div>
+              <small>Call</small>
+            </div>
+            <div>
+              <a href="tel:+919820466726"><i class="fas fa-phone"></i>+91-98204 66726</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <div class="label">Vandrevala Foundation Helpline</div>
+              <small>Call</small>
+            </div>
+            <div>
+              <a href="tel:18602662345"><i class="fas fa-phone"></i>1860 2662 345</a>
+              <a href="tel:18002333330"><i class="fas fa-phone"></i>1800 2333 330</a>
+            </div>
+          </div>
+        </div>
+
+        <hr style="margin:20px 0;border:none;border-top:1px solid #eee" />
+
+        <h3>Talk to someone — confidentially</h3>
+        <p style="color:var(--muted)">Use this form to send a short message. This page does not store messages unless you configure a form endpoint.</p>
+
+        <form id="contactForm" method="POST" action="https://formspree.io/f/xblaevlg">
+          <input id="name" name="name" type="text" placeholder="Your name (optional)" />
+          <input id="email" name="email" type="email" placeholder="Your email (optional)" />
+          <textarea id="message" name="message" rows="5" required placeholder="I'm feeling..."></textarea>
+          <small>By sending, you agree this message will be emailed to the helpline receiver. For urgent danger call local emergency services.</small>
+
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+            <button id="mailtoBtn" type="button" style="background:#6b7280"><i class="fas fa-envelope"></i> Open Email</button>
+          </div>
+          <div id="formStatus" role="status" aria-live="polite" style="margin-top:8px"></div>
+        </form>
+      </section>
+
+      <aside class="card">
+        <h2>Resources & Guidance</h2>
+        <div class="resources">
+          <p class="lead">Helpful quick links</p>
+          <ul>
+            <li><a href="https://www.who.int/mental_health" target="_blank"><i class="fas fa-globe"></i> WHO — mental health info</a></li>
+            <li><a href="hhttps://mhfi.in/" target="_blank"><i class="fas fa-leaf"></i> Mental Health Foundation </a></li>
+            <li><a href="https://findahelpline.com/countries/in/topics/suicidal-thoughts/" target="_blank"><i class="fas fa-hands-helping"></i> Indian Suicide Prevention</a></li>
+          </ul>
+          <hr style="margin:12px 0;border:none;border-top:1px solid #eee" />
+           <h3 style="margin-top:10px">If you are outside India</h3>
+          <p style="margin:6px 0;color:var(--muted)">Find local hotlines through government health sites or the resources above. If you can't find a number, reach out to a trusted friend, family member, or local clinic.</p>
+
+          <hr style="margin:10px 0;border:none;border-top:1px solid #eee" />
+
+          <h4>Privacy & Notes</h4>
+          <small>This is a simple static page. If you don’t configure a provider, clicking <em>Open email</em> will create a draft in your email app.</small>
+        </div>
+      </aside>
+    </main>
+
+    <div class="footer">
+      <small>⚠️ Not a substitute for professional help. If you are in immediate danger, call <span class="danger">112</span> or your local emergency number.</small>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      const form = document.getElementById('contactForm');
+      const mailtoBtn = document.getElementById('mailtoBtn');
+      const status = document.getElementById('formStatus');
+
+      form.addEventListener('submit', function(evt){
+        const action = form.getAttribute('action') || "";
+        if(action.includes('your-form-id')){
+          evt.preventDefault();
+          status.textContent = "⚠️ Form not configured. Replace the form action with your Formspree endpoint, or use 'Open Email'.";
+          status.style.color = "orange";
+        } else {
+          status.textContent = "Sending...";
+          status.style.color = "black";
+        }
+      });
+
+      mailtoBtn.addEventListener('click', function(){
+        const name = encodeURIComponent(document.getElementById('name').value || '');
+        const email = encodeURIComponent(document.getElementById('email').value || '');
+        const message = encodeURIComponent(document.getElementById('message').value || '');
+        const subject = encodeURIComponent("Helpline message from website");
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
+        window.location.href = `mailto:help@example.org?subject=${subject}&body=${body}`;
+      });
+    })();
+  </script>
+</body>
+</html>
